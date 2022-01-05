@@ -20,7 +20,7 @@ VARIANT_PATH := device/oneplus/oneplus8pro
 TARGET_SCREEN_DENSITY := 560
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := OnePlus8Pro,oneplus8pro
+TARGET_OTA_ASSERT_DEVICE := OnePlus8Pro|oneplus8pro
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += \
