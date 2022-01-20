@@ -29,7 +29,3 @@ PRODUCT_PACKAGES += \
     AOSPAOnePlus8ProSystemUI \
     OnePlus8ProFrameworks \
     OnePlus8ProSystemUI
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.aospa.powershare@1.0-service
