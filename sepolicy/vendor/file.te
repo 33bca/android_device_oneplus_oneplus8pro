@@ -1,0 +1,1 @@
+type procfs_oem_wireless, fs_type, proc_type;

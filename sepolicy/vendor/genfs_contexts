@@ -1,0 +1,1 @@
+genfscon proc /wireless/enable_tx                   u:object_r:procfs_oem_wireless:s0

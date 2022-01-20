@@ -19,6 +19,13 @@ VARIANT_PATH := device/oneplus/oneplus8pro
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(VARIANT_PATH)/oneplus_vendor_framework_compatibility_matrix.xml
+
+DEVICE_MANIFEST_FILE += \
+    $(VARIANT_PATH)/oneplus_manifest.xml
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := OnePlus8Pro|oneplus8pro
 

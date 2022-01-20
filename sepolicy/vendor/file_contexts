@@ -1,3 +1,6 @@
 # Charging
 /dev/wlchg                            u:object_r:wlchg_device:s0
 /(vendor|system/vendor)/bin/wlchgd    u:object_r:wlchgd_exec:s0
+
+# PowerShare
+/(vendor|system/vendor)/bin/hw/vendor\.aospa\.powershare@1\.0-service                                                u:object_r:hal_powershare_default_exec:s0
